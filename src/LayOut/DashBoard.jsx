@@ -13,6 +13,7 @@ const isAdmin = true;
 
   return (
     <div className="drawer drawer-mobile ">
+     
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col items-center justify-center">
 
@@ -30,6 +31,7 @@ const isAdmin = true;
         </label>
       </div>
       <div className="drawer-side bg-[#D1A054]">
+        
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
         <ul className="menu p-4 w-80 text-base-content">
 
@@ -43,7 +45,7 @@ const isAdmin = true;
               </li>
 
               <li>
-               <NavLink to='/dashboard/Additems'><FaUtensils></FaUtensils>Add Items </NavLink>
+               <NavLink to='/dashboard/addItem'><FaUtensils></FaUtensils>Add Items </NavLink>
                </li>
 
                <li>
